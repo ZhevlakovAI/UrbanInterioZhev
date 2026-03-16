@@ -1,0 +1,2505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+$fontUReg: Urbanist-Regular;
+$fontUBlack: Urbanist-Black;
+$fontUExb: Urbanist-ExB;
+$fontUBold: Urbanist-Bold;
+$fontUMed: Urbanist-Medium;
+$fontULig: Urbanist-Light;
+$fontPLig: Poppins-Light;
+$fontPBold: Poppins-Bold;
+
+$fontUSBold: Urbanist-SemiBold;
+$fontPSBold: Poppins-SemiBold;
+
+$colorWhite: #FFFFFF;
+$colorBrow: #B79B6C;
+$colorBlack: #000000;
+
+
+// 📛📛📛📛📛📛
+// Fonts / Шрифты
+// 📛📛📛📛📛📛
+
+
+@font-face {
+    font-family: Urbanist-Regular;
+    src: url(../fonts/Urbanist/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-SemiBold;
+    src: url(../fonts/Urbanist/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-Black;
+    src: url(../fonts/Urbanist/Urbanist-Black.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-ExB;
+    src: url(../fonts/Urbanist/Urbanist-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-Bold;
+    src: url(../fonts/Urbanist/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-Medium;
+    src: url(../fonts/Urbanist/Urbanist-Medium.ttf);
+}
+
+@font-face {
+    font-family: Urbanist-Light;
+    src: url(../fonts/Urbanist/Urbanist-Light.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button:hover {
+    background-color: #a27e41;
+}
+// 📛📛📛📛📛📛
+// Header / Хедер
+// 📛📛📛📛📛📛
+
+
+.header {
+    display: flex;
+
+    width: 1920px;
+    height: 1000px;
+
+    background: url(../img/headerPhoto.png);
+}
+
+
+// 📛📛📛📛📛📛📛📛📛
+// Navigation / Навигация
+// 📛📛📛📛📛📛📛📛📛
+
+
+.nav {
+    display: flex;
+
+    width: 1085px;
+    /* width: 1350px; */
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+    /* margin-left: -265px; */
+    margin-top: 25px;
+
+}
+
+.nav__logo {
+    display: flex;
+
+    width: 257px;
+    height: 90px;
+
+    align-items: center;
+
+    font-size: 40px;
+    color: white;
+
+    margin-bottom: 885px;
+    margin-left: -188px;
+    padding-right: 7px;
+
+    background-color:  rgba(0, 0, 0, 30%);
+}
+
+.nav__logo_name_p1 {
+
+    margin-left: 29px;
+    font-family: $fontUReg;
+
+}
+
+.nav__logo_name_p2 {
+
+    font-family: $fontUBlack;
+    font-weight: bold;
+
+}
+
+
+.nav__div {
+    display: flex;
+
+    width: 742px;
+
+    margin-left: 323px;
+    
+    align-items: center;
+
+}
+
+.nav__div_a {
+    
+    display: flex;
+
+    width: 517px;
+
+    justify-content: space-between;
+    
+    margin-right: 30px;
+
+}
+
+
+.nav__a {
+
+    color: $colorWhite;
+    text-decoration: none;
+
+    font-family: $fontUReg;
+    font-size: 18px;
+
+}
+
+.nav__a_Bold {
+
+    font-family: $fontUExb;
+
+}
+
+.nav__button {
+
+    width: 149px;
+    height: 50px;
+
+    margin-left: 30px;
+
+    font-family: $fontUBold;
+    font-size: 18px;
+    color: $colorWhite;
+    background-color: $colorBrow;
+
+    border: none;
+}
+
+
+// 📛📛📛📛📛📛📛📛📛📛📛📛
+// Alpha Block / Прозрачны блок
+// 📛📛📛📛📛📛📛📛📛📛📛📛
+
+
+.header__alpha {
+    display: flex;
+    width: 550px;
+    
+    background-color: rgba(0, 0, 0, 30%);
+    backdrop-filter: blur(10px);
+
+    font-size: 80px;
+    color: rgba(255, 255, 255, 20%);
+
+    align-items: flex-end;
+}
+
+.header__alpha_logo_p1 {
+
+    font-family: $fontUReg;
+
+    margin-left: 20px;
+    margin-bottom: 6px;
+
+}
+
+.header__alpha_logo_p2 {
+
+    font-family: $fontUBlack;
+    font-weight: bold;
+
+    margin-bottom: 6px;
+
+}
+
+.header__alpha_botton_vid {
+
+    /* margin-left: -75px;
+    margin-bottom: 50px; */
+
+    margin-top: 800px;
+    margin-left: -1160px;
+}
+
+.header__alpha_botton {
+    margin-left: -40px;
+    margin-bottom: 67px;
+}
+
+.nav__alpha_welcome {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 957px;
+    height: 355px;
+
+    margin-bottom: 330px;
+    margin-left: -305px;
+}
+
+.nav__alpha_welcome_box {
+    width: 8px;
+    height: 26px;
+
+    background-color: $colorBrow;
+
+    margin-right: 15px;
+}
+
+.nav__alpha_welcome_p {
+    font-size: 22px;
+    font-family: $fontUBold;
+
+    color: $colorWhite;
+}
+
+.nav__alpha_welcome_core{
+    width: 957px;
+    height: 144px;
+
+    margin-top: 11px;
+}
+
+.nav__alpha_wel_elev_p {
+    font-size: 62px;
+    font-family: $fontUReg;
+
+    color: $colorWhite;
+    margin-top: -2px;
+}
+
+.nav__alpha_wel_disc_p {
+    font-size: 62px;
+    font-family: $fontUBlack;
+    
+    color: $colorWhite;
+    margin-top: -2px;
+}
+
+.nav__alpha_welcome_foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+
+.nav__alpha_wel_p {
+    display: flex;
+    align-items: center;
+
+    width: 690px;
+    /* height: 72px; */
+
+    font-size: 16px;
+    font-family: $fontPLig;
+
+    color: $colorWhite;
+    line-height: 24px;
+}
+
+.nav__alpha_wel_button {
+    width: 143px;
+    height: 50px;
+
+    font-family: $fontUBold;
+    font-size: 18px;
+    color: $colorWhite;
+    background-color: $colorBrow;
+
+    border: none;
+
+    margin-top: 25px
+}
+
+.nav__button_search {
+/*     
+    background-image: url(../img/search.png); */
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 16px;
+    height: 16px;
+}
+
+
+// 📛📛📛📛📛📛📛
+// Info / Информация
+// 📛📛📛📛📛📛📛
+
+
+.header__info {
+    display: flex;
+    align-items: center;
+
+    width: 935px;
+    height: 180px;
+
+    background-color: rgba(0, 0, 0, 30%);
+    backdrop-filter: blur(10px);
+    
+    margin-top: 820px;
+    margin-left: 360px;
+}
+
+.header__info_year {
+    display: flex;
+    align-items: center;
+}
+
+.header__info_year_p {
+    
+    width: 110px;
+    height: 29px;
+
+    font-size: 24px;
+    font-family: $fontUMed;
+    color: $colorWhite;
+
+    transform: rotate(-90deg);
+
+    margin-left: -16px;
+}
+
+.header__info_box2 {
+    width: 1px;
+    height: 110px;
+
+    background-color: #F9F9F9;
+
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+
+
+.header__info_core {
+    width: 280px;
+    height: 110px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__info_core_transf {
+    width: 280px;
+
+    font-size: 28px;
+    font-family: $fontUReg;
+
+    color: $colorWhite;
+
+    margin-top: 1px;
+}
+
+.header__info_core_Unleash {
+    width: 260px;
+
+    font-size: 28px;
+    font-family: $fontUBlack;
+
+    line-height: 36px;
+    
+    color: $colorWhite;
+}
+
+
+
+.header__info_getStart {
+    width: 440px;
+    height: 110px;
+    
+    margin-left: 60px;
+}
+
+.header__info_exp {
+    width: 440px;
+    height: 72px;
+
+    font-size: 16px;
+    font-family: $fontPLig;
+
+    color: $colorWhite;
+
+    margin-bottom: 7px;    
+    line-height: 24px;
+}
+
+.header__info_a {
+    width: 94px;
+    height: 24px;
+
+    font-size: 16px;
+    font-family: $fontPBold;
+
+    color: $colorBrow;
+    
+    text-decoration: none;
+}
+
+.header__info_vector {
+    margin-left: 4px;
+    margin-bottom: 1px;
+}
+
+.header__info_box {
+    width: 94px;
+    height: 2px;
+
+    background-color: $colorBrow;
+    
+    margin-top: 4px;
+}
+
+
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+// Vectors(arrow) / Векторы(стрелки)
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+
+
+.header__alpha__vector {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    /* opacity: 0.1; */
+    /* border: 1px solid rgba(255, 255, 255, 0.05); */
+
+    margin-left: -1162px;
+    margin-bottom: 460px;
+}
+
+.header__vector {
+   display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: rgba(255, 255, 255, 0.1); 
+
+    margin-top: 460px;
+    margin-left: -160px;
+}
+
+
+
+// 📛📛📛📛📛📛📛📛📛📛📛
+// End Header / Конец хедера
+// Start Main / Начало мейна
+// 📛📛📛📛📛📛📛📛📛📛📛
+// About / абаут
+// 📛📛📛📛📛📛📛📛📛📛📛
+
+
+.main__about_UrbanInterio {
+    display: flex;
+
+    width: 1920px;
+    height: 1040px;
+}
+
+.main__about_UrbanInterio_img_box {
+    display: flex;
+    align-items: center;
+
+    width: 675px;
+    height: 800px;
+
+    margin-left: 285px;
+    margin-top: 120px;
+}
+
+.main__about_UrbanInterio_img1 {
+    margin-left: -50px;
+    margin-bottom: 800px;
+}
+
+.main__about_UrbanInterio_img2 {
+    margin-left: -75px;
+}
+
+.main__about_UrbanInterio_img3 {
+    margin-left: -280px;
+    margin-bottom: 183px;
+}
+
+
+
+.main__about_UrbantInterio_box_black {
+    width: 8px;
+    height: 224px;
+    background-color: $colorBlack;
+
+    margin-left: -67px;
+    margin-top: 501px;
+}
+
+.main__about_UrbantInterio_box_brow {
+    width: 8px;
+    height: 224px;
+    background-color: $colorBrow;
+
+    margin-left: -36px;
+    margin-top: 573px;
+}
+
+.main__about_UrbanInterio_text_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    width: 625px;
+    height: 612px;
+    
+    margin-top: 214px;
+    margin-left: 50px;
+}
+
+.main__about_UrbanInterio_text_box_brow {
+    width: 8px;
+    height: 22px;
+    background-color: $colorBrow;
+}
+
+.main__about_UrbanInterio_text_ab_p {
+    font-size: 18px;
+    font-family: $fontUBold;
+    margin-left: 15px;
+}
+
+
+.main__about_UrbanInterio_text_info{
+    /* display: flex; */
+    margin-top: 15px;
+}
+
+.main__about_UrbanInterio_text_info_Craft {
+    font-size: 52px;
+    font-family: $fontUReg;
+}
+
+
+.main__about_UrbanInterio_text_info_Our {
+    font-size: 52px;
+    font-family: $fontUBlack;
+}
+
+.main__about_UrbanInterio_text_info_p {
+    font-size: 16px;
+    font-family: $fontPLig;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.main__about_UrbanInterio_text_info_p2 {
+    font-size: 16px;
+    font-family: $fontPLig;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.main__about_UrbanInterio_text_info_box_grey {
+    width: 625px;
+    height: 2px;
+    margin-top: 25px;
+
+    background-color: #E4E4E4;
+}
+
+
+
+.main__about_UrbanInterio_vector_box {
+    display: flex;
+    align-items: center;
+
+    height: 24px;
+    margin-top: 25px;
+}
+
+.main__about_UrbanInterio_vector_box2 {
+    display: flex;
+    align-items: center;
+
+    height: 24px;
+    width: 500px;
+
+    margin-top: 15px;
+}
+
+.main__about_UrbanInterio_vector_box_p {
+    margin-left: 10px;
+    font-family: $fontPLig;
+    font-size: 16px;
+}
+
+.main__about_UrbanInterio_button {
+    width: 166px;
+    height: 50px;
+
+    font-family: $fontUBold;
+    font-size: 18px;
+    color: $colorWhite;
+    background-color: $colorBrow;
+
+    border: none;
+    margin-top: 30px;
+}
+
+
+// 📛📛📛📛📛📛📛📛
+// Experience / Опыт
+// 📛📛📛📛📛📛📛📛
+
+
+.main__trusted_experience {
+    display: flex;
+
+    height: 734px;
+    width: 1920px;
+
+    margin-bottom: 120px;
+}
+
+.main__trusted_experience_text {
+    display: flex;
+
+    width: 1300px;
+    height: 664px;
+    background-color: $colorBrow;
+
+    margin-top: 70px;
+}
+
+.main__trusted_experience_img_box {
+    display: flex;
+    align-items: center;
+
+    width: 990px;
+    height: 666px;
+
+    margin-right: 25px;
+    margin-left: -394px;
+}
+
+.main__trusted_exp_box {
+    width: 8px;
+    height: 22px;
+
+    background-color: $colorWhite;
+}
+
+.main__trusted_exp_text_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    margin-top: 100px;
+    margin-left: 285px;
+}
+
+.main__trusted_exp_text_p {
+    font-size: 18px;
+    font-family: $fontUBold;
+    color: $colorWhite;
+    width: 900px;
+    
+    margin-left: 15px;
+}
+
+.main__trusted_exp_text_p2 {
+    font-size: 52px;
+    font-family: $fontUReg;
+    color: $colorWhite;
+    margin-top: 15px;
+}
+
+.main__trusted_exp_text_p3 {
+    font-size: 52px;
+    color: $colorWhite;
+    font-family: $fontUBlack;
+}
+
+.main__trusted_exp_text_p4 {
+    width: 595px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: $colorWhite;
+
+    font-family: $fontPLig;
+    line-height: 24px;
+}
+
+.main__trusted_exp_text_p5 {
+    width: 595px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: $colorWhite;
+
+    font-family: $fontPLig;
+    line-height: 24px;
+}
+
+.main__trusted__exp_more {
+    width: 600px;
+    margin-top: 30px;
+    display: flex;
+
+    height: 80px;
+}
+
+.main__trusted__exp_more_border {
+    width: 78px;
+    height: 78px;
+    border: 1px solid $colorWhite;
+}
+
+.main__trusted__exp_more_back {
+    width: 60px;
+    height: 60px;
+    margin-top: 9px;
+    margin-left: 9px;
+    background-color: $colorWhite;
+}
+
+.main__truster__exp_more_img {
+    margin-top: 13px;
+    margin-left: 13px
+}
+
+.main__trusted__exp_more_call {
+    font-size: 16px;
+    font-family: $fontPLig;
+    color: $colorWhite;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.main__trusted__exp_more_phone {
+    font-size: 28px;
+    font-family: $fontUBlack;
+    color: $colorWhite;
+    
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.main__trusted__img_play {
+    width: 120px;
+    height: 120px;
+    margin-left: -765px;
+    margin-bottom: -545px;
+}
+
+.main__trusted__exp_img_p {
+    font-size: 16px;
+    font-family: $fontUBold;
+
+    margin-left: -98px;
+    margin-bottom: -715px;
+
+    color: $colorWhite;
+}
+
+.main__trusted__exp_img_p2 {
+    font-size: 16px;
+    font-family: $fontUBold;
+
+    margin-left: -61px;
+    margin-bottom: -752px;
+
+    color: $colorWhite;
+}
+
+
+// 📛📛📛📛📛📛📛📛
+// Services / Сервисы
+// 📛📛📛📛📛📛📛📛
+
+
+.main__our_Services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 835px;
+    width: 1350px;
+    margin-left: 285px;
+
+    margin-bottom: 120px;
+    
+}
+
+.main__our_Services_div_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 642px;
+    height: 147px;
+
+    margin-left: 354px;
+    margin-bottom: 40px;
+}
+
+.main__our_Services_p {
+    font-size: 18px;
+    font-family: $fontUBold;
+
+}
+
+.main__our_Services_p_comp {
+    font-size: 52px;
+    font-family: $fontUReg;
+
+}
+
+.main__our_Services_p_serv {
+    font-size: 52px;
+    font-family: $fontUBlack;
+
+    margin-left: 5px;
+    margin-left: 14px;
+}
+
+.main__our_Services_p_We {
+    font-family: $fontPLig;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.main__our_services_p_transform {
+    font-family: $fontPLig;
+    font-size: 16px;
+}
+
+.main__our_Services_p_comp_group {
+    display: flex;
+    margin-top: 5px;
+}
+
+.main__our_Services_button {
+    width: 166px;
+    height: 50px;
+
+    background-color: $colorBrow;
+    border: none;
+
+    font-size: 18px;
+    font-family: $fontUBold;
+    color: $colorWhite;
+
+    margin-left: 592px;
+    margin-top: 80px;
+}
+
+
+
+.main__our_services__div_space {
+    width: 430px;
+    height: 518px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: $colorWhite;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
+}
+
+.main__our_services__div_space_img {
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.main__our_services__div_space_p1 {
+    width: 286px;
+    height: 68px;
+
+    margin-top: 10px;
+
+    font-family: $fontUReg;
+    font-weight: 400;
+    font-size: 28px;
+
+    color: $colorBlack;
+    margin-left: 45px;
+}
+
+.main__our_services__div_space_p2 {
+    width: 244px;
+    height: 68px;
+
+    margin-top: -35px;
+
+    font-family: $fontUBlack;
+    font-weight: 900;
+    font-size: 28px;
+
+    color: $colorBlack;
+    margin-left: 45px;
+}
+
+.main__our_services__div_space_p3 {
+
+    width: 340px;
+    height: 120px;
+
+    margin-left: 45px;
+    margin-top: 30px;
+
+    font-family: $fontPLig;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+}
+
+.main__our_services__div_space_a {
+    height: 24px;
+
+    margin-left: 45px;
+    margin-top: 25px;
+
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: $fontUBlack;
+
+    color: $colorBrow;
+
+    text-decoration: none;
+
+}
+
+.main__our_services__div_space_a_img {
+    margin-top: -15px;
+    margin-left: 188px;
+}
+
+.main__our_services__div_space_box2 {
+    width: 134px;
+    height: 2px;
+    background-color: $colorBrow;
+    margin-top: 13px;
+    margin-left: 45px;
+}
+
+
+.main__our_services__div_space_box {
+    width: 150px;
+    height: 2px;
+    background-color: $colorBrow;
+    margin-top: -3px;
+    margin-left: 45px;
+}
+
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+// Complited Projects / Выполненные Проекты
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+
+.main__complited_Projects {
+    height: 1291px;
+    width: 1880px;
+
+    margin-bottom: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main__complited_Projects-text_area {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 285px;
+
+    width: 645px;
+    height: 161px;
+}
+
+.main__complited_Projects-text_head1 {
+
+    width: 645px;
+
+    font-family: $fontUReg;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+}
+
+.main__complited_Projects-text_head2 {
+
+    width: 645px;
+    height: 124px;
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+
+    margin-top: 1px;
+
+}
+
+.main__complilted-head {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 14px;
+}
+
+
+.main__complited_Projects-view_More {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.main__cP-view_More-text {
+
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+
+    margin-left: 60px;
+
+    width: 447px;
+}
+
+.main__cP-view_More-btn {
+    width: 138px;
+    height: 50px;
+
+    background-color: $colorBrow;
+    color: $colorWhite;
+
+    font-family: $fontUBold;
+    font-size: 18px;
+
+    border: None;
+
+    margin-left: 60px;
+}
+
+
+.main__cP-Photos_core {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+
+    width: 1880px;
+
+    margin-left: 11px;
+}
+
+.main__cP-photo {
+    margin-top: -4px;
+    position: relative;
+}
+
+.main__cP-photo-Eleg {
+    margin-top: -4px;
+    margin-left: 15px;
+
+    position: relative;
+
+    width: 840px;
+}
+
+.main__cP-photo-Oasis {
+    margin-top: -4px;
+    margin-left: 36px;
+
+    position: relative;
+
+    width: 470px;
+}
+
+.main__cP-photo-Spaces {
+    width: 925px;
+
+    position: relative;
+
+    margin-top: -23px;
+}
+
+.main__cP-photo-Esc {
+    width: 900px;
+
+    position: relative;
+    
+    margin-top: -5px;
+    margin-left: 28px;
+}
+
+.main__cP-photo__text-Reg-Esc {
+    font-family: $fontUReg;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 46px;
+}
+
+.main__cP-photo__text-blk-Esc {
+    font-family: $fontUBlack;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 161px;
+}
+
+.main__cP-photo__text-blk-Space {
+    font-family: $fontUBlack;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 208px;
+}
+
+.main__cP-photo__text-Reg-Oasis {
+    font-family: $fontUReg;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 37px;
+}
+
+.main__cP-photo__text-blk-Oasis {
+    font-family: $fontUBlack;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 132px;
+}
+
+.main__cP-photo__text-blk-Eleg{
+    font-family: $fontUBlack;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 173px;
+}
+
+.main__cP-photo__text-Reg {
+
+    font-family: $fontUReg;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 44px;
+
+}
+
+.main__cP-photo__text-blk {
+
+    font-family: $fontUBlack;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: $colorWhite;
+
+    position: absolute;
+    bottom: 60px;
+    left: 219px;
+}
+
+
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+// Why Choose Us / Почему выбирают нас
+// 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+
+
+.main__why_choose_Us {
+    height: 745px;
+    width: 1350px;
+    margin-left: 285px;
+
+    margin-bottom: 120px;
+    
+    display: flex;
+    position: relative;
+}
+
+.main__WCU-bord_div {
+    width: 140px;
+    height: 685px;
+
+    border: 5px solid $colorBrow;
+}
+
+.main__WCU-img {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.main__WCU-year_exp {
+    width: 250px;
+    height: 250px;
+
+    background-color: $colorBrow;
+
+    position: absolute;
+    top: 445px
+}
+
+.main__WCU-YE__img {
+    width: 68px;
+    height: 68px;
+
+    border: 1px solid $colorWhite;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: $colorWhite;
+}
+
+.main__WCU-YE__text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__WCU-YE__text-20 {
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+    
+    margin-left: 31px;
+    margin-top: 15px;
+
+    color: $colorWhite;
+}
+
+.main__WCU-YE__text-Years {
+
+    font-family: $fontUMed;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: $colorWhite;
+
+    margin-top: 38px;
+    margin-left: 12px;
+}
+
+.main__WCU-YE__text-exp {
+
+    font-family: $fontUSBold;
+    font-size: 31px;
+    line-height: 37px;
+
+    color: $colorWhite;
+
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.main__WCU-core {
+    margin-left: 555px;
+    margin-top: 116px;
+}
+
+.main__WCU-core__name {
+    display: flex;
+}
+
+.main__WCU-core__head {
+    margin-top: 15px;
+}
+
+.main__WCU-core__head-Reg_p {
+
+    font-family: $fontUReg;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+
+}
+
+.main__WCU-core__head-black_p {
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+
+}
+
+
+.main__WCU-core__head-PL {
+
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+
+    width: 645px;
+    margin-top: 15px;
+
+}
+
+.main__WCU-core__design-div{
+    margin-top: 0px;
+}
+
+.main__WCU-core__design-div_p {
+
+    font-family: $fontPSBold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+
+    margin-top: 20px;
+
+}
+
+.main__WCU-core_design {
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 80px;
+    width: 235px;
+}
+
+
+.main__WCU-core_design-img {
+    width: 78px;
+    height: 78px;
+
+    margin-top: 20px;
+    
+    border: 1px solid $colorBrow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-design {
+    width: 60px;
+    height: 60px;
+
+    background-color: $colorBrow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main__WCU-core_design-p1 {
+
+    font-family: $fontUReg;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $colorBlack;
+
+    margin-left: 15px;
+    margin-top: -10px;
+
+}
+
+.main__WCU-core_design-p2 {
+    font-family: $fontUBlack;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* #000000 */
+    color: $colorBlack;
+
+    position: absolute;
+    left: 95px;
+    top: 60px;
+}
+
+.main__WCU-core__design-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    width: 523px;
+    height: 190px;
+}
+
+.main__WCU-btn {
+    width: 128px;
+    height: 50px;
+
+    background-color: $colorBrow;
+    color: $colorWhite;
+
+    font-family: $fontUBold;
+    font-size: 18px;
+
+    border: None;
+
+    margin-top: 55px;
+}
+
+// 📛📛📛📛📛📛📛📛
+// Contact / Контакты
+// 📛📛📛📛📛📛📛📛
+
+
+.main__contact-grey-div {
+    position: absolute;
+    z-index: -1;
+
+    width: 1920px;
+    height: 700px;
+
+    background-color: #F9F9F9;
+}
+
+.main__contact {
+    height: 1095px;
+    width: 1920px;
+
+    margin-bottom: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: relative;
+}
+
+
+.main__contact-text_area {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 285px;
+    margin-top: 100px;
+
+    width: 645px;
+    height: 161px;
+}
+
+.main__contact-text_head1 {
+
+    width: 645px;
+
+    font-family: $fontUReg;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+}
+
+.main__contact-text_head2 {
+
+    width: 645px;
+    height: 124px;
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+
+    margin-top: 1px;
+
+}
+
+.main__contact-head {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 14px;
+}
+
+
+.main__contact-view_More {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    margin-top: 176px;
+    margin-left: -85px;
+}
+
+
+.main__contact_More-text {
+
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+
+    margin-left: 60px;
+
+    width: 728px;
+}
+
+.main__contact-info {
+    position: absolute;
+    left: 286px;
+    top: 306px;
+}
+
+.main__contact-info__block {
+    position: relative;
+}
+
+.main__contact-info__block2 {
+    position: relative;
+    margin-left: 364px;
+}
+
+.main__contact-info__block3 {
+    position: relative;
+    margin-left: 730px;
+}
+
+.main__contact-info__block4 {
+    position: relative;
+    margin-left: 1078px;
+}
+
+.margin-contact1 {
+    margin-left: -3px;
+}
+
+.margin-contact2 {
+    margin-left: 11px;
+}
+
+.main__contact-info__block-p_inv {
+    position: absolute;
+    width: 210px;
+    height: 144px;
+
+    font-family: $fontUBlack;
+    font-size: 120px;
+    line-height: 144px;
+
+    opacity: 0.25;
+
+    color: $colorWhite;
+    -webkit-text-stroke: 1px $colorBrow;
+}
+
+.main__contact-info__block-p-num {
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBrow;
+
+    position: absolute;
+    left: 49px;
+    top: 41px;
+}
+
+.main__contact-info__block-p_text1 {
+    
+
+    font-family: $fontUReg;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: $colorBlack;
+
+    position: absolute;
+    width: 84px;
+    left: 155px;
+    top: 47px;
+}
+
+.main__contact-info__block-p_text2 {
+    font-family: $fontUBlack;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: $colorBlack;
+
+    position: absolute;
+    left: 155px;
+    top: 73px;
+    width: 116px;
+}
+
+
+.main__contact-img_color {
+    position: absolute;
+    left: 285px;
+    top: 495px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+.main__contact-img_white {
+    position: absolute;
+    top: 495px;
+    left: 285px;
+}
+
+.main__Contact-scroll {
+    position: absolute;
+    z-index: 1;
+    top: 760px;
+    left: 925px;
+
+}
+
+.main__Contact-scroll-div {
+    width: 2px;
+    height: 600px;
+
+    position: absolute;
+    top: 494px;
+    left: 959px;
+
+    background-color: $colorWhite;
+}
+
+// 📛📛📛📛📛
+// Blog / Блог
+// 📛📛📛📛📛
+
+
+.main__latest_blog {
+    height: 856px;
+    width: 1350px;
+    margin-left: 285px;
+
+    margin-bottom: 120px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main__latest_blog-header {
+    width: 700px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 147px;
+}
+
+.main__lb-header__mixText {
+    display: flex;
+    margin-top: 5px;
+}
+
+.main__lb-name_block {
+
+    font-family: $fontUBold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: $colorBlack;
+}
+
+
+.main__lb-header__mT-reg {
+    font-family: $fontUReg;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: center;
+
+    color: $colorBlack;
+}
+
+.main__lb-header__mT-black {
+    font-family: $fontUBlack;
+
+    font-size: 52px;
+    line-height: 62px;
+    color: $colorBlack;
+
+    margin-left: 12px;
+}
+
+.main__lb-header__Lorem {
+
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: $colorBlack;
+
+    margin-top: 11px;
+}
+
+
+.main__lb-cards {
+    width: 1350px;
+    position: relative;
+
+    margin-top: -50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main__lb-card-p_Reg {
+
+    font-family: $fontUReg;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $colorBlack;
+    margin-top: 21px;
+}
+
+
+.main__lb-card-p_black {
+
+    font-family: $fontUBlack;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $colorBlack;
+}
+
+.main__lb-card-p_pop {
+
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+    margin-top: 11px;
+}
+
+
+.main__lb-card_com__ava {
+    width: 52px;
+    height: 52px;
+
+    border: 1px solid $colorBrow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__lb-card_com {
+    display: flex;
+    margin-top: 19px;
+    align-items: center;
+}
+
+.main__lb-card-com_Reg {
+    font-family: $fontUReg;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: $colorBlack;
+    margin-left: 12px;
+}
+
+.main__lb-card-com_black {
+    font-family: $fontUBlack;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: $colorBlack;
+    margin-left: 4px;
+}
+
+.main__lb-card-name_Reg {
+    font-family: $fontUReg;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: $colorBlack;
+    margin-left: 11px;
+}
+
+.main__lb-card-name_black {
+    font-family: $fontUBlack;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: $colorBlack;
+    margin-left: 5px;
+    margin-right: 70px;
+}
+
+.main__lb-card {
+    width: 430px;
+    height: 539px;
+}
+
+.main__lb-button {
+    width: 170px;
+    height: 50px;
+
+    position: absolute;
+    top: 806px;
+    
+    background-color: $colorBrow;
+    border: none;
+
+    font-size: 18px;
+    font-family: $fontUBold;
+    color: $colorWhite;
+
+}
+
+// Флажок
+
+.main__lb-card_flag {
+    position: relative;
+    left: 25px;
+}
+
+.flag-p1 {
+
+    font-family: $fontUBlack;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $colorWhite;
+    position: absolute;
+    z-index: 1;
+    left: 18px;
+    top: 10px;
+}
+
+.flag-p2 {
+    font-family: $fontUBold;    
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: $colorWhite;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 16px;
+}
+
+
+.card_flag-core {
+    position: absolute;
+
+    width: 60px;
+    height: 68px;
+    background-color: $colorBrow;
+}
+
+.card_flag-triangle1 {
+    position: absolute;
+    top: 68px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 12px solid $colorBrow;
+    border-right: 30px solid transparent; 
+}
+
+.card_flag-triangle2 {
+    position: absolute;
+    position: absolute;
+    top: 68px;
+    left: 30px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 12px solid $colorBrow;
+    border-left: 30px solid transparent; 
+}
+
+.left16 {
+    left: 16px;
+}
+
+.left17 {
+    left: 17px;
+}
+
+.mr86 {
+    margin-right: 86px;
+}
+
+// 📛📛📛📛📛📛📛📛
+// Testimonial / Отзыв 
+// 📛📛📛📛📛📛📛📛
+
+
+.main__testimonial {
+    height: 620px;
+    width: 1350px;
+    margin-left: 285px;
+
+    margin-bottom: 120px;
+
+    position: relative;
+}
+
+.main__test-img {
+    position: absolute;
+    left: 532px;
+    top: -25px;
+    z-index: -2;
+}
+
+.main__test-head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 477px;
+}
+
+
+.main__test-head-p1 {
+
+    font-family: $fontUReg;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+
+    margin-top: 15px;
+}
+
+.main__test-head-p2 {
+
+    font-family: $fontUBlack;
+    font-size: 52px;
+    line-height: 62px;
+
+    color: $colorBlack;
+}
+
+.main__test-comment {
+    width: 645px;
+    height: 409px;
+
+    background-color: $colorWhite;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+
+    margin-top: -45px;
+}
+
+.main__test-com-box {
+    width: 97px;
+    height: 97px;
+
+    border: 2px solid $colorBrow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 45px;
+}
+
+.main__test-avatar {
+    display: flex;
+    align-items: center;
+
+    margin-top: 95px;
+    margin-left: 44px;
+}
+
+.main__test-com-p1 {
+    font-family: $fontUReg;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: $colorBlack;
+    margin-left: 20px;
+    margin-top: 43px;
+}
+
+.main__test-com-p2 {
+
+    font-family: $fontUBlack;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: $colorBlack;
+
+    margin-left: -85px;
+    margin-top: 78px;
+}
+
+.main__test-comment-p {
+
+    width: 555px;
+    font-family: $fontPLig;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $colorBlack;
+        margin-top: 25px;
+    margin-left: 45px;
+}
+
+.stars {
+    width: 140px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 28px;
+    margin-left: 45px;
+}
+
+.main__test-qq {
+    margin-left: 221px;
+    margin-top: 43px;
+}
+
+.main__text-vectors {
+    width: 100px;
+    height: 50px;
+    display: flex;
+
+    margin-top: -4px;
+    margin-left: 595px;
+}
+
+.main__text-vec1 {
+    width: 50px;
+    height: 50px;
+    background-color: $colorBrow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main__text-vec2 {
+    width: 50px;
+    height: 50px;
+    background-color: $colorWhite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// 📛📛📛📛📛
+// Map / Карта
+// 📛📛📛📛📛
+.map {
+    position: absolute;
+    z-index: -10;
+
+    top: 806px;
+
+}
+
+// 📛📛📛📛📛📛📛
+// Footer / Подвал
+// 📛📛📛📛📛📛📛
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 1920px;
+    height: 480px;
+
+    background-color: $colorBrow; 
+}
+
+
+.footer__UrbanInterio {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 306px;
+    height: 253px;
+
+    margin-top: 80px;
+    margin-left: 285px;
+}
+
+.footer__UrbanInterio_p1 {
+    font-family: $fontUReg;
+    font-size: 40px;
+    color: $colorWhite;
+}
+
+.footer__UrbanInterio_p2 {
+    font-family: $fontUBlack;
+    font-weight: bold;
+    font-size: 40px;
+    color: $colorWhite;
+}
+
+.footer__UrbanInterio_pBox {
+    width: 306px;
+    height: 120px;
+
+    
+}
+
+.footer__UrbanInterio_info {
+    font-family: $fontPLig;
+    font-size: 16px;
+    color: $colorWhite;
+
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+.footer__UrbanInterio_link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    width: 200px;
+    height: 35px;
+}
+
+
+
+.footer__quick_links {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 122px;
+    height: 270px;
+
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.footer__quick_links_p1 {
+    font-family: $fontUReg;
+    font-size: 24px;
+    color: $colorWhite;
+}
+
+.footer__quick_links_p2 {
+    font-family: $fontUBlack;
+    font-weight: bold;
+    font-size: 24px;
+    color: $colorWhite;
+    margin-left: 5px;
+}
+
+.footer__quick_links_box{
+    width: 50px;
+    height: 3px;
+    margin-top: 9px;
+    margin-bottom: 1px;
+
+    background-color: $colorWhite;
+}
+
+.footer__quick_links_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    margin-top: 25px;
+
+    width: 100px;
+    height: 204px;
+}
+
+.footer__quick_links_nav_a {
+    font-size: 16px;
+    font-family: $fontPLig;
+    color: $colorWhite;
+
+    text-decoration: none;
+}
+
+
+
+.footer__info {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 250px;
+    height: 186px;
+
+    margin-left: 90px;
+    margin-top: 80px;
+
+}
+
+.footer__info_p1 {
+    font-family: $fontUReg;
+    font-size: 24px;
+    color: $colorWhite;
+}
+
+.footer__info_p2 {
+    font-family: $fontUBlack;
+    font-weight: bold;
+    font-size: 24px;
+    color: $colorWhite;
+    margin-left: 5px;
+
+    width: 150px;
+}
+
+.footer__info_box{
+    width: 50px;
+    height: 3px;
+    margin-top: -9px;
+
+    background-color: $colorWhite;
+}
+
+.footer__info__contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    font-size: 16px;
+    font-family: $fontPLig;
+    color: $colorWhite;
+    align-content: space-between;
+}
+
+.footer__info__contactCall_p {
+    margin-left: 12px;
+    width: 210px;
+}
+
+.footer__info__contactMail_p {
+    margin-left: 12px;
+    width: 210px;
+}
+
+.footer__info__contactBook_p {
+    margin-left: 12px;
+    width: 220px;
+}
+
+.footrt__info__contact_Call {
+    display: flex;
+    align-items: center;
+}
+
+.footer__info__contact_Mail {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 2px;
+}
+
+
+.fooret__info__contact_book {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: -1px;
+}
+
+.footer__info__contactBook_img {
+    margin-bottom: 25px;
+}
+
+.footer__Newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 402px;
+    height: 203px;
+
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.footer__Newsletter__name{
+    display: flex;
+}
+
+.footer__Newsletter_main{
+    margin-top: 25px;
+
+}
+
+.footer__Newsletter_main_p {
+    font-size: 16px;
+    font-family: $fontPLig;
+
+    color: $colorWhite;
+    line-height: 24px;
+}
+
+.footer_Newsletter_email_input {
+    margin-top: 24px;
+    height: 60px;
+    width: 383px;
+
+    font-size: 18px;
+    font-family: $fontULig;
+    padding-left: 19px;
+    border: none;
+}
+
+.footer__Newsletter_button {
+    width: 109px;
+    height: 50px;
+
+    background-color: $colorBrow;
+    border: none;
+
+    font-size: 18px;
+    font-family: $fontUBold;
+    color: $colorWhite;
+
+    margin-top: 144px;
+    margin-left: -114px;
+}
+
+.footer__Reserved {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 1350px;
+    height: 35px;
+
+    margin-top: 64px;
+    margin-left: 285px;
+}
+
+.footer__Reserved_box {
+    background-color: $colorWhite;
+    width: 1350px;
+    height: 1px;
+}
+
+.footer__Reserved_p1 {
+    font-size: 16px;
+    font-family: $fontUBold;
+    color: $colorWhite;
+    margin-left: 5px;
+}
+
+.footer__Reserved_p2 {
+    font-size: 16px;
+    color: $colorWhite;
+    font-family: $fontUReg;
+    margin-right: 2px;
+}
+
+.footer__Reserved_p3 {
+    font-size: 16px;
+    color: $colorWhite;
+    font-family: $fontUReg;
+    margin-right: -1px;
+}
+
+.footer__Reserved_p {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fql {
+    display: flex;
+}

@@ -1,0 +1,508 @@
+@media (max-width: 391px) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .header {
+    width: 390px;
+    position: relative;
+    background-position: -96px;
+  }
+  .nav {
+    height: 75px;
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 80px;
+    width: 390px;
+  }
+  .nav__div {
+    width: 380px;
+    margin: 0px;
+    margin-left: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav__div_a {
+    width: 380px;
+    margin: 0px;
+  }
+  .nav__logo {
+    position: absolute;
+    left: 188px;
+    top: 30px;
+    font-size: 32px;
+    height: 75px;
+    width: 383px;
+    justify-content: center;
+  }
+  .nav__logo_name_p1 {
+    margin-left: 10px;
+  }
+  .header__alpha__vector {
+    display: none;
+  }
+  .header__vector {
+    display: none;
+  }
+  .header__info {
+    display: none;
+  }
+  .header__alpha_botton_vid {
+    display: none;
+  }
+  .header__alpha_botton {
+    display: none;
+  }
+  .header__alpha {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    font-size: 50px;
+  }
+  .header__alpha_logo_p1 {
+    margin-left: 5px;
+  }
+  .nav__alpha_welcome {
+    left: 320px;
+    position: absolute;
+  }
+  .nav__alpha_welcome_box {
+    margin-right: 10px;
+  }
+  .nav__alpha_wel_elev_p {
+    font-size: 40px;
+  }
+  .nav__alpha_wel_disc_p {
+    font-size: 40px;
+    width: 341px;
+  }
+  .nav__alpha_wel_p {
+    width: 340px;
+  }
+  .main__about_UrbanInterio_img_box {
+    display: none;
+  }
+  .main__about_UrbanInterio_text_box {
+    margin-left: 10px;
+    margin-top: 48px;
+  }
+  .main__about_UrbanInterio_text_ab_p {
+    margin-left: 10px;
+  }
+  .main__about_UrbanInterio_text_info_Craft {
+    font-size: 32px;
+  }
+  .main__about_UrbanInterio_text_info_Our {
+    font-size: 30px;
+  }
+  .main__about_UrbanInterio_text_info_p {
+    width: 370px;
+  }
+  .main__about_UrbanInterio_text_info_p2 {
+    width: 380px;
+  }
+  .main__about_UrbanInterio_vector_box_p {
+    margin-left: 7px;
+    width: 360px;
+    margin-bottom: 5px;
+  }
+  .main__about_UrbanInterio_vector_box {
+    margin-bottom: 10px;
+  }
+  .main__about_UrbanInterio {
+    height: 814px;
+  }
+  .main__trusted_experience {
+    margin-top: 48px;
+    width: 380px;
+  }
+  .main__trusted_experience_img_box {
+    display: none;
+  }
+  .main__trusted_experience_text {
+    width: 390px;
+  }
+  .main__trusted_exp_text_box {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 380px;
+  }
+  .main__trusted_exp_text_p4 {
+    width: 360px;
+  }
+  .main__trusted_exp_text_p5 {
+    width: 360px;
+  }
+  .main__trusted_exp_text_p {
+    margin-top: -20.5px;
+    margin-left: 15px;
+  }
+  .main__trusted_exp_text_p2 {
+    font-size: 38px;
+    width: 380px;
+  }
+  .main__trusted_exp_text_p3 {
+    font-size: 38px;
+    width: 370px;
+  }
+  .main__WCU-year_exp {
+    display: none;
+  }
+  .main__WCU-img {
+    display: none;
+  }
+  .main__WCU-bord_div {
+    display: none;
+  }
+  .main__our_Services {
+    margin-left: 10px;
+    width: 380px;
+    height: 1715px;
+  }
+  .main__our_Services_div_p {
+    margin-left: 0px;
+    width: 380px;
+  }
+  .main__our_Services_p_comp {
+    font-size: 32px;
+    margin-left: -10px;
+  }
+  .main__our_Services_p_serv {
+    font-size: 32px;
+  }
+  .main__our_Services_p_We {
+    width: 375px;
+  }
+  .main__our_services__div_space {
+    width: 370px;
+    margin-bottom: 15px;
+  }
+  .main__our_services__div_space_img {
+    margin-left: 10px;
+  }
+  .main__our_services__div_space_p1 {
+    margin-left: 30px;
+  }
+  .main__our_services__div_space_p2 {
+    margin-left: 30px;
+  }
+  .main__our_services__div_space_box {
+    margin-left: 30px;
+  }
+  .main__our_services__div_space_p3 {
+    margin-left: 30px;
+    width: 322px;
+  }
+  .main__our_Services_button {
+    margin-top: 0px;
+    margin-left: 105px;
+  }
+  .main__complited_Projects {
+    width: 390px;
+    margin-top: 168px;
+    height: 1800px;
+  }
+  .main__complited_Projects-text_area {
+    margin-left: 10px;
+  }
+  .main__complited_Projects-text_head1 {
+    font-size: 30px;
+  }
+  .main__complited_Projects-text_head2 {
+    font-size: 40px;
+    height: 60px;
+  }
+  .main__complited_Projects-view_More {
+    width: 390px;
+    justify-content: center;
+    height: 50px;
+  }
+  .main__cP-view_More-btn {
+    margin-left: 0px;
+  }
+  .main__cP-view_More-text {
+    display: none;
+  }
+  .main__cP-photo {
+    width: 380px;
+  }
+  .adaptive-photo1 {
+    width: 370px;
+  }
+  .adaptive-photo2 {
+    width: 370px;
+  }
+  .adaptive-photo3 {
+    width: 370px;
+  }
+  .adaptive-photo4 {
+    width: 370px;
+  }
+  .adaptive-photo5 {
+    width: 370px;
+  }
+  .main__cP-photo-Eleg {
+    margin-left: 0px;
+  }
+  .main__cP-photo-Oasis {
+    margin-left: 0px;
+  }
+  .main__cP-photo-Esc {
+    margin-left: -1px;
+  }
+  .main__WCU-core {
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 380px;
+    height: 800px;
+  }
+  .main__WCU-core__design-div {
+    width: 380px;
+    height: 350px;
+  }
+  .main__WCU-core_design {
+    margin-bottom: 15px;
+  }
+  .main__WCU-core__head-PL {
+    width: 380px;
+  }
+  .main__WCU-core__design-div_p {
+    width: 370px;
+  }
+  .main__why_choose_Us {
+    margin-left: 0px;
+    height: 815px;
+  }
+  .main__contact {
+    margin-top: 15px;
+    width: 380px;
+    height: 770px;
+  }
+  .main__contact-imgs_block {
+    display: none;
+  }
+  .main__contact-text_area {
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .main__contact-text_head1 {
+    width: 380px;
+  }
+  .main__contact-text_head2 {
+    width: 380px;
+  }
+  .main__contact-info {
+    width: auto;
+    height: 800px;
+    left: 64px;
+    top: 300px;
+    justify-content: center;
+  }
+  .main__contact_More-text {
+    display: none;
+  }
+  .main__contact-info__block2 {
+    margin-left: 0px;
+    margin-top: 105px;
+  }
+  .main__contact-info__block3 {
+    margin-left: 0px;
+    margin-top: 210px;
+  }
+  .main__contact-info__block4 {
+    margin-left: 0px;
+    margin-top: 315px;
+  }
+  .main__contact-grey-div {
+    width: 390px;
+    height: 800px;
+  }
+  .main__latest_blog {
+    width: 380px;
+    margin-left: 10px;
+    height: 1250px;
+  }
+  .main__lb-header__mT-reg {
+    width: 370px;
+  }
+  .main__lb-header__mixText {
+    width: 380px;
+    display: block;
+  }
+  .main__lb-header__mT-black {
+    margin-left: 35px;
+  }
+  .main__lb-cards {
+    width: 380px;
+    height: 1700px;
+    flex-wrap: wrap;
+    margin-top: 120px;
+  }
+  .main__lb-card {
+    width: 370px;
+  }
+  .card-adp1 {
+    width: 370px;
+  }
+  .card-adp2 {
+    width: 370px;
+  }
+  .card-adp3 {
+    width: 370px;
+  }
+  .main__lb-card_com__ava {
+    border: none;
+  }
+  .main__lb-card-name_black {
+    margin-right: 15px;
+  }
+  .main__lb-card-com_Reg {
+    margin-left: 8px;
+  }
+  .main__lb-button {
+    top: 1986px;
+  }
+  .main__test-img {
+    display: none;
+  }
+  .main__text-vectors {
+    display: none;
+  }
+  .main__testimonial {
+    margin-left: 10px;
+    width: 380px;
+    margin-top: 830px;
+  }
+  .main__test-head-p1 {
+    font-size: 40px;
+  }
+  .main__test-head-p2 {
+    font-size: 40px;
+  }
+  .main__test-comment {
+    width: 370px;
+    height: 459px;
+  }
+  .main__test-comment-p {
+    width: 360px;
+    margin-left: 15px;
+  }
+  .main__test-com-box {
+    border: none;
+  }
+  .stars {
+    margin-left: 108px;
+  }
+  .main__test-qq {
+    position: absolute;
+    left: 54px;
+    top: 195px;
+  }
+  .map {
+    display: none;
+  }
+  .footer {
+    width: 390px;
+    height: 900px;
+  }
+  .footer__UrbanInterio {
+    margin-left: 10px;
+  }
+  .footer__quick_links {
+    margin-left: 10px;
+    width: 160px;
+    margin-top: 20px;
+  }
+  .footer__quick_links_box {
+    margin-left: 35px;
+  }
+  .footer__quick_links_nav {
+    margin-left: 12px;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .footer__info {
+    margin-left: 160px;
+    margin-top: -270px;
+  }
+  .footer__info__contactBook_p {
+    width: 219px;
+  }
+  .footer__info_box {
+    margin-left: 50px;
+  }
+  .footer__Newsletter {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .footer__Newsletter_main_p {
+    width: 370px;
+  }
+  .footer_Newsletter_email_input {
+    width: 358px;
+  }
+  .footer__Reserved {
+    width: 390px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .footer__Reserved_box {
+    width: 360px;
+  }
+  .main__about_UrbanInterio {
+    width: 390px;
+  }
+  .main__about_UrbanInterio_text_info {
+    width: 390px;
+  }
+  .main__about_UrbanInterio_text_info_box_grey {
+    width: 370px;
+  }
+  .main__about_UrbanInterio_text_box {
+    width: 370px;
+  }
+  .main__complited_Projects-text_area {
+    width: 380px;
+  }
+  .main__cP-Photos_core {
+    width: 370px;
+  }
+  .main__why_choose_Us {
+    width: 370px;
+  }
+  .main__testimonial {
+    width: 370px;
+  }
+  .main__test-head {
+    width: 370px;
+  }
+  .nav__alpha_welcome {
+    width: 370px;
+  }
+  .nav__alpha_welcome_core {
+    width: 370px;
+  }
+  .main__complited_Projects-text_head1 {
+    width: 380px;
+  }
+  .main__complited_Projects-text_head2 {
+    width: 380px;
+  }
+  .footer__info_p2 {
+    width: 60px;
+  }
+  .footer__info {
+    width: 228px;
+  }
+  .footer__info__contactCall_p {
+    width: 190px;
+  }
+  .footer__info__contactMail_p {
+    width: 190px;
+  }
+  .footer__info__contactBook_p {
+    width: 190px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
